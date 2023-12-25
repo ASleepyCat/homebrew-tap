@@ -15,6 +15,6 @@ class Tfswitcher < Formula
   end
 
   test do
-    assert_match version.to_s, shell_output("#{bin}/tfswitcher", "-V")
+    assert_match "tfswitcher #{version}", shell_output("#{bin}/tfswitcher -V")
   end
 end
