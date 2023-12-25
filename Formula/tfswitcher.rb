@@ -5,6 +5,8 @@ class Tfswitcher < Formula
   sha256 "3f09740303075b038d6270b6146b5d53300de75fd2cef01e1da2f8f1e6511644"
   license "MIT"
 
+  depends_on "pkg-config" => :build
+  depends_on "openssl" => :build
   depends_on "rust" => :build
 
   # TODO: Add OpenTofu when it gets added to homebrew-core
