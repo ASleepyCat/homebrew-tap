@@ -2,7 +2,7 @@ class Tfswitcher < Formula
   desc "Terraform and OpenTofu version switcher"
   homepage "https://github.com/ASleepyCat/tfswitcher"
   url "https://github.com/ASleepyCat/tfswitcher/archive/refs/tags/v0.6.1.tar.gz"
-  sha256 "375633b62f9dbd5f2479d75966967cd32e2b952913d746873e56c12ed41eeec9"
+  sha256 "53968361f70c1ee131e99ec3b5093c647820461e9d90465cc5e83fb280575a3b"
   license "MIT"
 
   depends_on "openssl" => :build
