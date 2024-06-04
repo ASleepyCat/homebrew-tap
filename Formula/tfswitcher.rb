@@ -5,6 +5,7 @@ class Tfswitcher < Formula
   sha256 "fa4c8d773206cfccfce4c0c2ecee0c5bf4233380af0ef011c58562710f461998"
   license "MIT"
 
+  depends_on "cmake" => :build
   depends_on "openssl" => :build
   depends_on "pkg-config" => :build
   depends_on "rust" => :build
